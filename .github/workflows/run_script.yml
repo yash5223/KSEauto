@@ -2,7 +2,7 @@ name: Run Python Script Automatically
 
 on:
   schedule:
-    - cron: "45 15 * * *"  # Runs every day at 3:45 PM UTC
+    - cron: "45 23 * * *"  # Runs every day at 3:45 PM UTC
   workflow_dispatch:  # Allows manual execution
 
 jobs:
